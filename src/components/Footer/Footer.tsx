@@ -1,17 +1,17 @@
-import { Container } from './styles'
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
+import { Container } from "./styles";
+import linkedin from "../../assets/linkedin.svg";
+import githubIcon from "../../assets/github.svg";
+import whatsapp from "../../assets/whatsapp.svg";
+import telegram from "../../assets/telegram.svg";
+import instagramIcon from "../../assets/instagram.svg";
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://vinayaksingh.in" className="logo">
+      {/* <a href="https://vinayaksingh.in" className="logo">
         <span>www.bereket</span>
         <span>melese.com</span>
-      </a>
+      </a> */}
       <div>
         <p>
           All Rights Reserved &copy; Bereket Melese 2024
@@ -41,11 +41,7 @@ export function Footer() {
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://t.me/CodeVinayak" target="_blank" rel="noreferrer">
           <img src={telegram} alt="telegram" />
         </a>
         <a
@@ -57,5 +53,5 @@ export function Footer() {
         </a>
       </div>
     </Container>
-  )
+  );
 }
