@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --green: #23ce6b;
     --blackGreen:rgb(14, 88, 46);
     --blue: #016fb9;
+    --white:rgb(183, 193, 200);
     scroll-padding-top: 10rem;
 
     &.light{

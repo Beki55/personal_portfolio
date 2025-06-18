@@ -98,4 +98,15 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
     }
   }
+
+  // Light mode styles
+  body.light & .project,
+  .light & .project {
+    background-color:rgb(219, 228, 228);
+    color: #222;
+  }
+  body.light & .project:hover,
+  .light & .project:hover {
+    background-color:rgb(205, 206, 205);
+  }
 `

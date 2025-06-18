@@ -19,16 +19,16 @@ export function Hero() {
           <h1>Bereket Melese</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3  style={{ marginBottom: '24px' }}>Software Engineer</h3>
+          <h3 >Software Engineer</h3>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">1 Year Experience</p>
         </ScrollAnimation> */}
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/codevinayak"
