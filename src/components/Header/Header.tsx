@@ -40,8 +40,15 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Resume} download className="button">
+          <a href={Resume} download>
             Resume
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~01ebe40328a44d063f?mp_source=share"
+            target="blank"
+            className="button-1"
+          >
+            Hire On Upwork
           </a>
         </nav>
         <div
