@@ -109,7 +109,7 @@ export function Form() {
           <p style={{ color: "red" }}>Message is required</p>
         )}
         <ReCAPTCHA
-          sitekey="6LfRCfgqAAAAAH325G81aFKKDF6edY13boYebdQl"
+          sitekey="6LehCPgqAAAAANj46E2xQtT5qmRPRYiH7jvbSZ8w"
           onChange={() => {
             setIsHuman(true);
           }}

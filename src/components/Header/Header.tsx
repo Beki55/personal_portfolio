@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-import Resume from "../../assets/bereket-resume.pdf";
+import Resume from "../../assets/bereket-cv.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
   function toggleTheme() {

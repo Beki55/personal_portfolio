@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 // import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
 // import wordpress from "../../assets/wordpress.svg";
 // import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -24,10 +24,25 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I am a full stack web developer and software engineer with strong capacity in web development and ERP systems.
+            I am a full stack web developer and software engineer with strong
+            capacity in web development and ERP systems.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
+          <p>
+            Passionate and detail-oriented full-stack developer with strong
+            experience in building responsive web and mobile applications.
+            Skilled in JavaScript, React,Vue Node.js, and Flutter, with a solid
+            understanding of backend systems and database management. Always
+            eager to learn and contribute to meaningful projects in
+            collaborative environments
+          </p>
+        </ScrollAnimation>
+        {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
             I build secure backend systems and landing pages, focusing on reliability and performance.
           </p>
@@ -36,7 +51,7 @@ export function About() {
           <p>
             I am pursuing a Bachelor's degree in Software Engineering at Bahir Dar University.
           </p>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
@@ -45,14 +60,16 @@ export function About() {
             {/* You can add GPA or other details if needed */}
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+        {/* <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3>
-             <h4>Software Developer</h4>
-            <p>Tinamart Business PLC | Front-end Developer for robust admin dashboard systems</p>
-            {/* Add location or duration if needed */}
+            <h3>Experience:</h3>
+            <h4>Software Developer</h4>
+            <p>
+              Tinamart Business PLC | Front-end Developer for robust admin
+              dashboard systems
+            </p>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
@@ -84,7 +101,7 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={python} alt="python" />
             </ScrollAnimation>
           </div>
@@ -122,9 +139,16 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src="/Images/bereket.jpg" style={{ borderRadius: '48px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' }} alt="Vinayak Singh" />
+          <img
+            src="/Images/bereket.jpg"
+            style={{
+              borderRadius: "48px",
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            }}
+            alt="Vinayak Singh"
+          />
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }
