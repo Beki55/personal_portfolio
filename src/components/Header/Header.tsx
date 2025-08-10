@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-import Resume from "../../assets/bereket-cv.pdf";
+
 export function Header() {
   const [isActive, setActive] = useState(false);
   function toggleTheme() {
@@ -40,9 +40,9 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Resume} download>
+          <NavHashLink smooth to="#resume" onClick={closeMenu}>
             Resume
-          </a>
+          </NavHashLink>
           <a
             href="https://www.upwork.com/freelancers/~01ebe40328a44d063f?mp_source=share"
             target="blank"
