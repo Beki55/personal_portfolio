@@ -1,6 +1,6 @@
 import { Container, ContainerSucces } from "./styles";
 import { toast, ToastContainer } from "react-toastify";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 import { useEffect, useState } from "react";
 import validator from "validator";
 // import { ValidationError } from "@formspree/react";
@@ -10,7 +10,7 @@ export function Form() {
   const [status, setStatus] = useState<null | "success" | "error">(null);
   const [loading, setLoading] = useState(false);
   const [validEmail, setValidEmail] = useState(false);
-  const [isHuman, setIsHuman] = useState(false);
+  // const [isHuman, setIsHuman] = useState(false);
   const [message, setMessage] = useState("");
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
@@ -108,16 +108,13 @@ export function Form() {
         {status === "error" && (
           <p style={{ color: "red" }}>Message is required</p>
         )}
-        <ReCAPTCHA
+        {/* <ReCAPTCHA
           sitekey="6LehCPgqAAAAANj46E2xQtT5qmRPRYiH7jvbSZ8w"
           onChange={() => {
             setIsHuman(true);
           }}
-        />
-        <button
-          type="submit"
-          disabled={loading || !validEmail || !message || !isHuman}
-        >
+        /> */}
+        <button type="submit" disabled={loading || !validEmail || !message}>
           {loading ? "Sending..." : "Send"}
         </button>
         {status === "error" && (
