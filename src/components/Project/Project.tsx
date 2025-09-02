@@ -7,6 +7,34 @@ import ScrollAnimation from "react-animate-on-scroll";
 // Project data array
 const projects = [
   {
+    image: "/Images/snapkors.png",
+    title: "Snapkors - Student Notes & Quiz Platform",
+    description:
+      "A web and mobile app platform designed for university students to purchase study notes and take quizzes. Features include a digital marketplace for notes, interactive quizzes, user authentication, and mobile-friendly design for seamless learning on any device.",
+    links: [
+      {
+        href: "https://snapkors.com",
+        icon: externalLink,
+        alt: "Visit site",
+      },
+    ],
+    tech: ["React", "Flutter", "Node.js", "Express", "PostgreSQL"],
+  },
+  {
+    image: "/Images/tina.png",
+    title: "Tinamart - Admin Dashboard Developer",
+    description:
+      "Served as an admin web developer for Tinamart Business PLC. Built robust front-end systems for the admin dashboard, enabling efficient management of business operations, analytics, and user roles.",
+    links: [
+      {
+        href: "https://tinamart.com",
+        icon: externalLink,
+        alt: "Visit site",
+      },
+    ],
+    tech: ["React", "Laravel", "TypeScript", "REST API"],
+  },
+  {
     image: "/Images/bktour.png",
     title: "BK Tour - Full Stack Tour Booking App",
     description:
@@ -44,39 +72,7 @@ const projects = [
     ],
     tech: ["React", "Node.js", "Express", "PostgreSQL"],
   },
-  {
-    image: "/Images/tina.png",
-    title: "Tinamart - Admin Dashboard Developer",
-    description:
-      "Served as an admin web developer for Tinamart Business PLC. Built robust front-end systems for the admin dashboard, enabling efficient management of business operations, analytics, and user roles.",
-    links: [
-      {
-        href: "https://tinamart.com",
-        icon: externalLink,
-        alt: "Visit site",
-      },
-    ],
-    tech: ["React", "Laravel", "TypeScript", "REST API"],
-  },
-  {
-    image: "/Images/snapkors.png",
-    title: "Snapkors - Student Notes & Quiz Platform",
-    description:
-      "A web and mobile app platform designed for university students to purchase study notes and take quizzes. Features include a digital marketplace for notes, interactive quizzes, user authentication, and mobile-friendly design for seamless learning on any device.",
-    links: [
-      {
-        href: "https://github.com/yourusername/snapkors",
-        icon: githubIcon,
-        alt: "GitHub",
-      },
-      {
-        href: "https://snapkors.netlify.app",
-        icon: externalLink,
-        alt: "Visit site",
-      },
-    ],
-    tech: ["React", "Flutter", "Node.js", "Express", "PostgreSQL"],
-  },
+
   {
     image: "/Images/awura.png",
     title: "Awura Tech Website",

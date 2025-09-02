@@ -138,6 +138,57 @@ export function Resume() {
             </div>
           </section>
         </div>
+        <section style={{ marginTop: "4rem" }}>
+          <h3
+            style={{
+              textAlign: "center",
+              fontSize: "3rem",
+              marginBottom: "2rem",
+              textDecoration: "underline",
+            }}
+          >
+            Achievements
+          </h3>
+          <a
+            href="https://snapkors.com"
+            style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}
+          >
+            <div className="resume-block" style={{ marginBottom: "2rem" }}>
+              <strong style={{ marginRight: "2rem", marginBottom: "2rem" }}>
+                Snapkors.com
+              </strong>
+              <span className="resume-date">2023 - Present</span>
+              <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+                Successfully deployed and currently maintaining{" "}
+                <a href="https://snapkors.com" target="_blank" rel="noreferrer">
+                  snapkors.com
+                </a>{" "}
+                on VPS. The platform is live and serving university students for
+                notes and quizzes.
+              </div>
+              <ul>
+                <li>End-to-end deployment and server management</li>
+                <li>Live production system with real users</li>
+              </ul>
+            </div>
+            <a href="https://tinamart.com" className="resume-block">
+              <strong style={{ marginRight: "2rem" }}>Tinamart.com</strong>
+              <span className="resume-date">2024 - Present</span>
+              <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+                Developed and launched{" "}
+                <a href="https://tinamart.com" target="_blank" rel="noreferrer">
+                  tinamart.com
+                </a>{" "}
+                including the main website and robust admin dashboard. The
+                platform is live and actively used for business operations.
+              </div>
+              <ul>
+                <li>Front-end and admin dashboard development</li>
+                <li>Successful launch and ongoing support</li>
+              </ul>
+            </a>
+          </a>
+        </section>
       </div>
     </Container>
   );
